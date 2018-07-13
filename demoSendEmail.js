@@ -1,8 +1,8 @@
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
-    host: 'smtp.deltek.com',
-    port: '25'
+    host: 'XX',
+    port: 'XX'
 });
 
 var mailOptions = {
